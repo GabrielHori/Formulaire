@@ -12,6 +12,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #7aacef;
+  font-family: "Quicksand", sans-serif
 }
 
 .container {
@@ -24,7 +25,6 @@ body {
   padding: 15px 25px;
   border-radius: 10px;
   font-size: 18px;
-  font-family: "Quicksand", sans-serif;
 }
 
 .logo {
@@ -125,6 +125,30 @@ body {
 
 .tab-link.active {
   font-weight: bold;
+}
+
+.change-clr{
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button{
+  border: none;
+  outline: none;
+  background-color: #fff;
+  width: 120px;
+  height: 45px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+h2{
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 520px) {
